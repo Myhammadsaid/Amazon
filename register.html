@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Окно регистрации</title>
+		<link rel="stylesheet" href="register.css" />
+	</head>
+	<body>
+		<div class="registration-container">
+			<div class="registration-box">
+				<h2>Регистрация</h2>
+				<form>
+					<div class="form-group">
+						<label for="username">Имя пользователя</label>
+						<input
+							type="text"
+							id="username"
+							placeholder="Введите имя пользователя"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<label for="email">Электронная почта</label>
+						<input
+							type="email"
+							id="email"
+							placeholder="Введите вашу почту"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<label for="password">Пароль</label>
+						<input
+							type="password"
+							id="password"
+							placeholder="Введите пароль"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<label for="confirm-password">Подтвердите пароль</label>
+						<input
+							type="password"
+							id="confirm-password"
+							placeholder="Введите пароль снова"
+							required
+						/>
+					</div>
+					<button type="submit" class="btn">Зарегистрироваться</button>
+				</form>
+				<p class="login-link">Уже есть аккаунт? <a href="#">Войти</a></p>
+			</div>
+		</div>
+		<script src="register.js"></script>
+	</body>
+</html>
